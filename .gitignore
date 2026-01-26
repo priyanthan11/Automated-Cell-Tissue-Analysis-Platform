@@ -181,4 +181,4 @@ cython_debug/
 .cursorindexingignore
 
 # Ignore all of the Cell
-.Data/images/
+data/images/
