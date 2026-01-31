@@ -1,0 +1,19 @@
+# Project configuration for training
+dataset:
+  img_path: "C:/___python/Bio-tech Project/Automated Cell & Tissue Analysis Platform/Data/images/test/image"
+  csv_path: "C:/___python/Bio-tech Project/Automated Cell & Tissue Analysis Platform/Data/images/test/test.csv"
+  val_split: 0.1
+
+training:
+  batch_size: 4
+  epochs: 50
+  lr: 0.001
+  visualize_every: 5
+
+device: "cuda"  # or "cpu"
+
+checkpoint:
+  dir: "models/"
+
+reproducibility:
+  seed: 42
