@@ -1,5 +1,3 @@
-import torch
-
 def dice_score(preds,targets,threshold=0.5,smooth=1e-6):
     """
         Computes Dice coefficient.
